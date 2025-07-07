@@ -100,11 +100,23 @@ function Body() {
         </div>
 
         {retrievedMessage && (
-          <div className="result">
-            <strong>Message:</strong>
-            <p>{retrievedMessage}</p>
-          </div>
-        )}
+  <div className="result">
+    <strong>Message:</strong>
+    <pre
+      style={{
+        background: '#f4f4f4',
+        padding: '10px',
+        borderRadius: '5px',
+        whiteSpace: 'pre-wrap',
+        wordWrap: 'break-word',
+        fontFamily: 'monospace'
+      }}
+    >
+      {retrievedMessage}
+    </pre>
+  </div>
+)}
+        
         {retrievedFile && (
           <div className="result">
             <strong>File:</strong>
