@@ -104,7 +104,7 @@ function Body() {
     <strong>Message:</strong>
     <pre
       style={{
-        background: '#f4f4f4',
+        background: '#FFF6FF',
         padding: '10px',
         borderRadius: '5px',
         whiteSpace: 'pre-wrap',
