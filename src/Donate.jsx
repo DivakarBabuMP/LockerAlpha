@@ -7,20 +7,20 @@ function Donate() {
     <div className="donate-container">
       <h1>🙏 Donate Us</h1>
       <p className="donate-message">
-        We are on a mission to help poor people by providing food, clothes, and basic needs.
+        We are on a mission to help people in need by providing food, clothing, and essential support.
         <br /><br />
-        Every rupee you donate will be used to feed the hungry and support the needy across India.
+        Every contribution you make helps us reach more individuals struggling with hunger and poverty.
       </p>
 
-       <div className="donate-stats">
+      <div className="donate-stats">
         <h3>📊 Why Your Help Matters</h3>
         <p>
-          🧒 According to NITI Aayog’s Multidimensional Poverty Index (2023), over <strong>25 crore</strong> people in India were living in poverty in 2015–16.<br />
-          💡 Although poverty has decreased, millions still live without regular meals and basic needs.<br />
-          🌾 Many rural families earn less than ₹100 per day and can't afford 2 meals a day.
+          🌍 Millions of people worldwide still lack access to regular meals, clean water, and basic necessities.<br />
+          💡 Many families survive on less than $2 a day, making it difficult to afford even a single meal.<br />
+          🤝 Your donation directly supports those affected by poverty and hardship.
         </p>
         <p>
-          Your donation directly supports people struggling with hunger and poverty.
+          Together, we can make a meaningful difference in someone’s life.
         </p>
       </div>
 
@@ -34,18 +34,19 @@ function Donate() {
           value="46bQDdBrix8BxXV2DrueVp1sDw1KG9E45e315BYzKxgkTFq2CYNNbXyLe6XPw6Ebja6T5HC1hyuyGdCvrqzrxd3w7urA92V"
         />
         <img
-          src="/images/monero.jpeg" // 👈 Place QR image in public/images folder
+          src="/images/monero.jpeg"
           alt="Monero QR Code"
           className="monero-qr"
         />
       </div>
+
       <div className="corruption-note">
         <h4>🛡️ Why Monero?</h4>
         <p>
-           We believe transparency shouldn't mean vulnerability. In a world plagued by corruption, we choose Monero to ensure that <strong>every rupee reaches the people who need it</strong> — not the pockets of middlemen or officials.
+          We believe transparency shouldn't mean vulnerability. In a world where misuse of funds and surveillance is common, we choose Monero to ensure that <strong>your help truly reaches those who need it</strong> — securely and privately.
         </p>
         <p>
-            With Monero, your donation remains anonymous and untouchable by corrupt systems. Your generosity is your choice — not your risk.
+          With Monero, your donation remains anonymous and protected. Your generosity is your choice — not your risk.
         </p>
       </div>
     </div>
